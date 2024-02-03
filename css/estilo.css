@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, white, navy);
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#contenedor {
+    width: 300px;
+    padding: 20px 5px;
+}
+
+#tareas {
+    margin-top: 10px;
+}
+
+#nuevaTarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#botonAgregar {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#botonAgregar:hover {
+    background-color: #218838; 
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    margin-bottom: 5px;
+}
+
+.list-group-item i {
+    margin-left: 10px; 
+    font-size: 1.2em; 
+    cursor: pointer;
+}
+
+.list-group-item i:hover {
+    color: #28a745;
+}
+
+.list-group-item i.basura:hover {
+    color: #c41829; 
+}
+
+.estiloTarea {
+    background-color: #17a2b8; 
+    border: solid 2px #007bff; 
+    padding: 10px;
+    border-radius: 5px; 
+}
